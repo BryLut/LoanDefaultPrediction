@@ -1,2 +1,5 @@
 # LoanDefaultPrediction
-Project for predicting whether potential customers are a risk for loan default
+This project develops a classification model to predict potential loan defaulters for a bank’s consumer credit department using the HMEQ dataset. It applies predictive modeling techniques—Logistic Regression, Decision Tree, and Random Forest—while adhering to Equal Credit Opportunity Act guidelines. SMOTE addresses class imbalance, and key features like delinquency and debt-to-income ratio drive decision-making. The model is designed to automate loan approvals, reduce bias and human error, and help minimize non-performing assets through data-driven insights.
+
+
+The project concludes that a Random Forest model trained with SMOTE offers the best performance for predicting loan defaults, achieving high recall and F1-score on imbalanced data. It effectively identifies key risk indicators like delinquency, debt-to-income ratio, and derogatory reports. The model supports automation, reduces bias, and enhances decision-making. Recommendations include phased deployment, continuous monitoring, threshold tuning, and stakeholder training to ensure regulatory compliance, operational efficiency, and long-term model effectiveness in minimizing non-performing assets.
